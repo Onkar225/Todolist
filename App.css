@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  border: 2px solid rgba(221, 202, 202, 0.753); /* Adds a black border */
+  border-radius: 8px; /* Optional: adds rounded corners */
+  padding: 20px; /* Optional: adds some padding inside the container */
+  margin-top: 25px; /* Optional: adds some margin at the top */
+}
+.count-tasks {
+  margin-left: 10px; /* Space between buttons */
+}
+.actions {
+  display: flex;
+  gap: 10px; /* Adds space between buttons */
+  margin-top: 10px; /* Optional: Adds space above the action buttons */
+}
+
+.count-tasks {
+  margin-left: 10px; /* Space between the count button and others */
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjusts space between buttons */
+}
